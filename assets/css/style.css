@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-image: url(./assets/images/bg.jpg);
+    /* backdrop-filter: blur(5px); */
+  }
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    /* height: 660px; */
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.748);
+    box-sizing: border-box;
+    padding: 45px;
+    border-radius: 5px;
+  }
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: rgba(255, 255, 255, 0.747);
+  }
+  .sign-in {
+    color: white;
+  }
+  .login-input,
+  .password-input {
+    border: 1px solid transparent;
+    background-color: #333;
+    border-radius: 4px;
+    padding: 10px 20px 0;
+    margin-bottom: 15px;
+  }
+  .login-box,
+  .password-box {
+    background-color: transparent;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    outline: none;
+  }
+  .login-box::placeholder,
+  .password-box::placeholder {
+    font-size: 16px;
+  }
+  .signin-button {
+    padding: 15px 10px;
+    background-color: #e50914;
+    margin: 15px 0px 10px 0px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .remember-need-help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .check-box-remember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #8c8c8c;
+  }
+  .checkbox {
+    color: #8c8c8c;
+  }
+  .need-help-link {
+    color: #8c8c8c;
+    text-decoration: none;
+  }
+  .need-help-link:hover {
+    text-decoration: underline;
+  }
+  .login-form-other {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    color: #8c8c8c;
+  }
+  .link-to-sign-up {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .link-to-sign-up:hover {
+    text-decoration: underline;
+  }
+  .some-text {
+    color: #8c8c8c;
+  }
+  .learn-more {
+    text-decoration: none;
+  }
